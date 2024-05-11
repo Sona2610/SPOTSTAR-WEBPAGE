@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTSTAR</title>
+    <style >
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(50, 50, 50)
+        }
+        #top{
+            color: green;
+            font-size: 30px;
+            background-color: black;
+        }
+        #middle{
+
+            text-align: center;
+            margin-top: 30px;
+            font-size: 25px;
+            border: 10px black solid;
+            height: 400px;
+            width: max-content;
+            margin-left: 500px;
+            background-color: black;
+        }
+        input{
+            margin-bottom: 10px;
+            width: 250px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        input.focus{
+            border-color: green;
+            
+        }
+        button{
+            color: black;
+            background-color: green;
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            margin-bottom: 10px;
+            font-size: medium;
+        }
+    </style>
+    </head>
+<body>
+    <div id="top">
+        <h1>SPOTSTAR</h1>
+    </div>
+    <div id="middle">
+        <h3 style="color:white;">LOGIN</h3>
+        <form>
+            <tr>
+                <td><input type="text" placeholder="Username"></td> <br>
+                <td><input type="password" placeholder="Password" > </td> <br>
+                <td><a href="./forgetpassword.html"> <p style="text-decoration:underline; font-size: medium; color:green">ForgetPassword?</p></a></td> <br>
+            </tr>
+        </form>
+    <a href="./login.html"><button>Log In</button> </a>
+    <p style="font-size: medium; color:grey ;margin-top:80px;">Don't Have an account?</p>
+    <a href="./signup.html" style="font-size: medium; color:green">SignUp For SpotStar</a>
+    </div>
+</body>
+</html>
